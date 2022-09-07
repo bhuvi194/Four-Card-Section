@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color:  hsl(0, 0%, 98%);
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 400px;
+    min-height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+
+.wrapper{
+    max-width: 100%;
+    margin: 4rem 0;
+}
+
+ #heading-top{
+    padding: 0rem 1rem 1rem 1rem; 
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#heading-bottom{
+    padding: 0 1rem 1.5rem 1rem;
+    font-size: 24px;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+#product-detail{
+    padding: 0 2rem 4rem 2rem;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+}
+
+.card-section{
+    text-align: left;
+    margin: 0 2rem;
+}
+
+.card-section .card{
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0px 12px 15px -12px hsl(229, 6%, 66%);
+    display: flex;
+    flex-direction: column;  
+}
+
+.container .card-section .card1{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    margin-bottom: 2rem;
+}
+.container .card-section .card2{
+    border-top: 4px solid hsl(0, 78%, 62%);
+    margin-bottom: 2rem;
+}
+.container .card-section .card3{
+    border-top: 4px solid hsl(34, 97%, 64%);
+    margin-bottom: 2rem;
+}
+.container .card-section .card4{
+    border-top: 4px solid hsl(212, 86%, 64%);
+    margin-bottom: 2rem;
+}
+
+.card-section .card #card-detail{
+    margin-bottom: 1.5rem;
+}
+
+.card-section .card #card-detail h3{
+    font-size: 20px;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 0.5rem;
+}
+
+.card-section .card #card-detail p{
+    color: hsl(229, 6%, 66%);
+}
+
+.card-section .card picture{
+    text-align: right;
+}
+
+.card-section .card picture img{
+    width: 60px;
+    height: 60px;
+}
+
+@media screen and (min-width: 1220px){
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color:  hsl(0, 0%, 98%);
+    overflow-x: hidden;
+}
+    .container{
+        max-width: 1200px;
+        height: 100%;
+    }
+
+    #product-detail{
+        margin: 0 19rem;
+    }
+    .card-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .card-section .card{
+       width: 320px;
+    }
+  
+}
